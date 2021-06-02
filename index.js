@@ -19,7 +19,7 @@ function summer(r, sum) {
 }
 Router
   .route('/')
-  .get(r => r.res.end('Привет мир!'));
+  .get(r => r.res.end('Микросервис для суммирования чисел!'));
 SummerRouter
   .route('/')
   .all(r => {
